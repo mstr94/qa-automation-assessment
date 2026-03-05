@@ -1,0 +1,16 @@
+{
+  "name": "bee-talents-assignment",
+  "version": "1.0.0",
+  "description": "Bee Talents – Senior QA Automation & Performance Assessment",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "perf": "k6 run performance/load-test.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.2"
+  }
+}
